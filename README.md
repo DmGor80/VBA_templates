@@ -1,2 +1,2 @@
 # VBA_templates
-VBA macros and programms for Excel
+VBA macros and programs for Excel
