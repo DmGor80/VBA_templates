@@ -8,10 +8,10 @@ Sub SaveWorksheetsAsOnePDF()
     
     ' Set the directory path where the PDF file will be saved
     'savePath = "f:\VBProjekt\Projects\VBA_projects\Pivot_tables_2_PDF\PDF tables\" ' Change this to your desired directory
-    savePath = ThisWorkbook.Path & "\PDF tables\"
+    savePath = ThisWorkbook.Path
     
     ' Construct the file name for the PDF file
-    fileName = savePath & "PDF_tables.pdf"
+    fileName = savePath & "\" & "PDF_tables.pdf"
     
     ' Save all worksheets as one PDF
     'Sheets(Array(Sheets(1).Name)).Select
